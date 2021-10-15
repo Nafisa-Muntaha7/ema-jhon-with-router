@@ -4,7 +4,7 @@ import img from '../../images/giphy.gif';
 const PlaceOrder = () => {
     return (
         <div>
-            <img src={img} alt="" />
+            <img className="mx-auto d-block m-3" src={img} alt="" />
         </div>
     );
 };
